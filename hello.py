@@ -10,8 +10,12 @@ from random import shuffle, choice
 word = "ФЕВРАЛЬ"  ###Загадали слово для игры
 letters = list(word)  ###Превратили строку в список отдельных букв
 
+
+
+print(letters)
+
 letter = choice(letters)
-print(letter)
+# print(letter)
 
 
 shuffle(letters)  ###перемешали буквы
